@@ -1,0 +1,92 @@
+@media screen and (max-width: 800px) {
+
+
+    body {
+      /* iPhone 11 Pro / X - 1 */
+    width: 100%;
+    height: 200vh;
+    background: linear-gradient(180deg, #FDFF9B 0%, #FFE3E3 100%);
+    }
+
+    .home{
+        /* Rectangle 47 */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    top: 30px;
+    background: #ec6666;
+    border-radius: 44px;
+    }
+
+    .myName{
+        /* Aajamn sami */
+
+
+position: absolute;
+width: 200px;
+height: 22px;
+margin-left: 33%;
+margin-right: 33%;
+
+top: 80px;
+font-family: 'Aclonica', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+    }
+
+    .homeTexts{
+        position: absolute;
+        width: 100%;
+        height: 125px;
+        top: 135px;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .homeThoughts{
+        /* Rectangle 48 */
+position: relative;
+display: inline-block;
+width: 260px;
+height: 90px;
+left: 19px;
+top: 2px;
+margin: 5px;
+padding: 10px;
+background: rgba(255, 255, 255, 0.7);
+border-radius: 13px;
+opacity: 100%;
+
+font-size: 14px;
+font-family: 'Aclonica', sans-serif;
+text-align:left;
+overflow-y:scroll;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

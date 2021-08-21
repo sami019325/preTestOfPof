@@ -1,0 +1,118 @@
+
+/* insde of the menue bar */
+
+.myName
+{
+    position:absolute;
+    margin-left: 20px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.homeBG
+{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 90px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #FFFF41;
+}
+.homeBTN
+{
+    position: absolute;
+    margin-top: 2px;
+    width: 20px;
+    left: 10px;
+    animation: homeBTN 5s;
+}
+@keyframes homeBTN 
+{
+    from {
+        opacity: 0;
+        transform: scale(0, 0);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+.homeBtnText{
+    position: absolute
+}
+
+
+
+.menu{
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-right: 1px solid rgb(195, 194, 194);
+    color: rgb(70, 70, 70);
+    background-color: rgb(246, 238, 225);
+    animation: menu 10s infinite;
+}
+
+@keyframes menu{
+    25% {
+        background-color: rgb(212, 240, 181);
+    }
+    50% {
+        background-color: rgb(203, 255, 231);
+    }
+    75% {
+        background-color: rgb(255, 218, 227);
+    }
+    
+}
+
+.home{
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(219, 203, 55);
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 50%;
+    left: 10px;
+    animation: borderHome 5s infinite; 
+}
+@keyframes borderHome {
+    25%{
+        border: 3px solid rgb(150, 196, 67);
+    }
+    50%{
+        border: 3px solid rgb(82, 111, 207);
+    }
+    75%{
+        border: 3px solid rgb(182, 69, 167);
+    }
+    100%{
+        border: 3px solid rgb(233, 55, 100);
+    }
+    
+}
+
+.home:hover{
+    transform: rotate(180deg);
+    
+        animation: rotateHome 5s infinite;
+    }
+    @keyframes rotateHome{
+        from{
+            transform: rotate(1800deg);
+        }
+        to{ transform: rotate(360deg);
+         border: 3px solid rgb(218, 206, 32);
+        }
+        
+    }
