@@ -49,7 +49,7 @@ color: #000000;
     .homeTexts{
         position: absolute;
         width: 100%;
-        height: 190px;
+        height: 195px;
         top: 180px;
         overflow: auto;
         white-space: nowrap;
@@ -58,8 +58,8 @@ color: #000000;
         /* Rectangle 48 */
 position: relative;
 display: inline-block;
-width: 265px;
-height: 150px;
+width: 270px;
+height: 155px;
 left: 15px;
 top: 2px;
 margin: 5px;
@@ -105,7 +105,7 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 12px;
 text-align: center;
 user-select: none;
-animation: menuAnim 10s infinite;
+animation: menuAnim 30s infinite;
     }
    
     @keyframes menuAnim {
@@ -142,7 +142,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
-animation: menuTextAnim 10s infinite;
+animation: menuTextAnim 30s infinite;
     }
 @keyframes menuTextAnim {
     50%{
@@ -163,7 +163,7 @@ animation: menuTextAnim 10s infinite;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
-    animation: menuBtnanim 10s infinite;
+    animation: menuBtnanim 30s infinite;
     opacity: 100%;
 }
 @keyframes menuBtnanim {
