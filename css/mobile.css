@@ -1,3 +1,6 @@
+
+
+
 @media screen and (max-width: 800px) {
 
 
@@ -5,7 +8,9 @@
       /* iPhone 11 Pro / X - 1 */
     width: 100%;
     height: 200vh;
-    background: linear-gradient(211.28deg, #FFCB9B 18.89%, #FBFFCB 100%);    }
+    background: linear-gradient(211.28deg, #FFCB9B 18.89%, #FBFFCB 100%);
+
+    }
     .home{
         /* Rectangle 47 */
     position: absolute;
@@ -44,8 +49,6 @@ color: #000000;
 /* home text  home text home text home text home text home text home text home text home text home text home text home text home text home text home text home text */
 
 
-
-
     .homeTexts{
         position: absolute;
         width: 100%;
@@ -53,6 +56,7 @@ color: #000000;
         top: 180px;
         overflow: auto;
         white-space: nowrap;
+        
     }
     .homeThoughts{
         /* Rectangle 48 */
@@ -79,12 +83,19 @@ overflow-y:scroll;
 
 /* menu bar  menu bar menu bar menu bar menu bar menu bar menu bar menu bar menu bar menu bar menu bar menu bar menu bar menu bar menu bar menu bar */
 
-
+    .padding{
+    position: sticky;
+    width: 86px;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: inline;
+    text-align: center;
+       }   
 
     .menuBar{
         position: absolute;
         width: 100%;
-        height: 80px;
+        height: 120px;
         top: 400px;
         overflow: auto;
         white-space: nowrap;
@@ -92,25 +103,30 @@ overflow-y:scroll;
     }
     .menuBG{
         /* Rectangle 50 */
-position: relative;
+position: sticky;
 display: inline-block;
-width: 60px;
-height: 60px;
+width: 100px;
+text-align: center;
+height: 100px;
 left: 19px;
 top: 5px;
-padding-left:6px;
-padding-right:6px;
+padding-left:10px;
+padding-right:auto;
 background: chartreuse;
+background-repeat: no-repeat;
+background-size: auto;
+background-size: 100%;
 box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 12px;
 text-align: center;
 user-select: none;
-animation: menuAnim 30s infinite;
+animation: menuAnim 20s infinite;
     }
    
     @keyframes menuAnim {
         45%{
             background: chartreuse;
+            
         }
         50%{
             background-color: #FFFFFF;
@@ -119,51 +135,59 @@ animation: menuAnim 30s infinite;
             -o-transition: 1s ease-in;
             transition: 1s ease-in;
         }
-        95%{
+        85%{
             background-color: #FFFFFF;
         }
 
         100%{
             background: chartreuse;
+            -webkit-transition: 1s ease-in;
+            -moz-transition: 1s ease-in;
+            -o-transition: 1s ease-in;
+            transition: 1s ease-in;
         }
     }
     .menuBG:active{
         background-color: chocolate;
     }
+    .menuBTN{
+                /* Rectangle 50 */
+position: relative;
+display: inline-block;
+width: 110px;
+height: 80px;
+left: -10px;
+top: -16px;
+margin: 5px;
+padding-left:0px;
+padding-right:0px;
+border-radius: 12px;
 
-
+user-select: none;
+    }
     .menuBtnText{
         position: relative;
-        margin-top: -20px;
+        margin-top: -25px;
+        
+      /*  background-color:rgb(255, 217, 172); */
+        width: 85px;
+        text-align: center;
         color: #030000;
-        opacity: 0;
+        opacity: 100%;
         font-family: Sansita;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 17px;
-animation: menuTextAnim 30s infinite;
+animation:  30s infinite;
     }
-@keyframes menuTextAnim {
-    50%{
-        opacity: 0;
-    }
-    53%{
-        opacity: 100%;
-    }
-    90%{
-        opacity: 100%;
-    }
-    95%{
-        opacity: 0%;
-    }
-}
+
 .menuBTN{
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
-    animation: menuBtnanim 30s infinite;
+    animation:  30s infinite;
     opacity: 100%;
 }
 @keyframes menuBtnanim {
