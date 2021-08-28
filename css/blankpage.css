@@ -1,0 +1,132 @@
+body{
+    background: rgb(39, 1, 1);
+}
+.text{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    color: blanchedalmond;
+    background-color: rgba(218, 78, 14, 0.5);
+    height: 120px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.loading{
+    position: relative;
+    user-select: none;
+    top: 40px;
+    text-align: center;
+    
+}
+
+.o1s{
+    position: relative;
+    float: left;
+    color: rgb(245, 179, 25);
+    left: 47%;
+    opacity: 0;
+    animation: o1sa 4s infinite;
+}
+
+@keyframes o1sa {
+
+    5%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    
+}
+
+
+
+
+
+.o2s{
+    position: relative;
+    float: left;
+    color: rgb(245, 179, 25);
+    left: 47%;
+    opacity: 0;
+    animation: o2sa 4s infinite;
+}
+
+@keyframes o2sa {
+
+    30%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    
+}
+
+
+.o3s{
+    position: relative;
+    float: left;
+    color: rgb(245, 179, 25);
+    left: 47%;
+    opacity: 0;
+    animation: o3sa 4s infinite;
+}
+
+@keyframes o3sa {
+
+    50%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    
+}
+
+
+
+.o4s{
+    position: relative;
+    float: left;
+    color: rgb(245, 179, 25);
+    left: 47%;
+    opacity: 0;
+    animation: o4sa 4s infinite;
+}
+
+@keyframes o4sa {
+
+    70%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    
+}
+
+
+
+.o5s{
+    position: relative;
+    float: left;
+    color: rgb(245, 179, 25);
+    left: 47%;
+    opacity: 0;
+    animation: o5sa 4s infinite;
+}
+
+@keyframes o5sa {
+
+    90%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    
+}
