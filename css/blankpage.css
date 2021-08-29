@@ -28,7 +28,7 @@ body{
     color: rgb(245, 179, 25);
     left: 47%;
     opacity: 0;
-    animation: o1sa 3s infinite;
+    animation: o1sa 4s infinite;
 }
 
 @keyframes o1sa {
@@ -52,7 +52,7 @@ body{
     color: rgb(245, 179, 25);
     left: 47%;
     opacity: 0;
-    animation: o2sa 3s infinite;
+    animation: o2sa 4s infinite;
 }
 
 @keyframes o2sa {
@@ -73,7 +73,7 @@ body{
     color: rgb(245, 179, 25);
     left: 47%;
     opacity: 0;
-    animation: o3sa 3s infinite;
+    animation: o3sa 4s infinite;
 }
 
 @keyframes o3sa {
@@ -95,7 +95,7 @@ body{
     color: rgb(245, 179, 25);
     left: 47%;
     opacity: 0;
-    animation: o4sa 3s infinite;
+    animation: o4sa 4s infinite;
 }
 
 @keyframes o4sa {
@@ -117,7 +117,7 @@ body{
     color: rgb(245, 179, 25);
     left: 47%;
     opacity: 0;
-    animation: o5sa 3s infinite;
+    animation: o5sa 4s infinite;
 }
 
 @keyframes o5sa {
@@ -129,4 +129,23 @@ body{
         opacity: 1;
     }
     
+}
+
+.btn{
+    position: relative;
+    width: 300PX;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 10vh;
+    margin-top: 30vh;
+    color: white;
+    background-color: tomato;
+    border-radius: 50px;
+
+
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: bolder;
+
+
 }
