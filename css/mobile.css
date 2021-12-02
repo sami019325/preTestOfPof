@@ -62,7 +62,7 @@ color: #000000;
         /* Rectangle 48 */
 position: relative;
 display: inline-block;
-width: 270px;
+width: 290px;
 height: 155px;
 left: 15px;
 top: 2px;
@@ -78,6 +78,141 @@ font-family: 'Aclonica', sans-serif;
 text-align:left;
 overflow-y:scroll;
     }
+.yellowLoveBtn{
+    position: relative;
+    margin-left: 0;
+    background-color: wheat;
+    border: none;
+    width: 290px;
+    margin-right: auto;
+    font-size: 30px;
+}
+.yellowLoveBtn:active{
+    font-size: 20px;
+    opacity: 30%;
+
+}
+
+
+.yellowHateBtn{
+    position: relative;
+    margin-left: 0;
+    background-color: wheat;
+    border: none;
+    width: 290px;
+    margin-right: auto;
+    font-size: 30px;
+}
+.yellowHateBtn:active{
+    font-size: 20px;
+    opacity: 30%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* notice box center  notice box center  notice box center  notice box center  notice box center  notice box center  notice box center  notice box center notice box center  notice box center notice box center  notice box center */
+.noticeBoxOfhomeTexts{
+    position:fixed;
+    top: 200px;
+    left: 10%;
+    right: 10%;
+    height: 200px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+
+.noticeInput{
+    position: fixed;
+    top: 300px;
+    left: 15%;
+    right: 35%;
+    height: 30px;
+    width: 50%;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.noticeOkBtn{
+    position: fixed;
+    height: 36px;
+    width: 50px;
+    top: 300px;
+    left: 70%;
+    background-color: rgb(230, 216, 22);
+}
+
+.cross{
+    position: fixed;
+    height: 40px;
+    top: 350px;
+    left: 45%;
+}
+.hiddenCross{
+    position: fixed;
+    background-color: crimson;
+    opacity: 0;
+    height: 50px;
+    width: 200px;
+    top: 350px;
+    left: 25%;
+}
+ /* the are of home page */
+ .notice{
+    position:fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(196, 196, 196, 0.5);
+    padding: 10px;
+    color: white;
+    display: none;
+
+}
+.noticeWord{
+    font-size: 24px;
+    font-family: 'Aclonica', sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.noticedetails{
+    position: fixed;
+    top: 210px;
+    left: 15%;
+    right: 15%;
+    font-size: 18px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -208,35 +343,7 @@ animation:  30s infinite;
 
 
 
-
-
-
-    /* the are of home page */
-    .notice{
-        position: absolute;
-        height: auto;
-        top: 550px;
-        background-color: rgb(216, 103, 58);
-        padding: 10px;
-        border-radius: 20px;
-        color: white;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .noticeWord{
-        font-size: 38px;
-        font-family: 'Aclonica', sans-serif;
-        font-weight: bold;
-        margin-top: 0px;
-    }
-    .noticedetails{
-        font-size: 18px;
-        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: bold;
-        margin-top: -20px;
-        padding: 2px;
-
-    }
+   
 
 
 
@@ -246,5 +353,111 @@ animation:  30s infinite;
 
 
 
-
+  .treeMainBack{
+    position: absolute;
+    width: 72px;
+    height: 1377px;
+    left: -40px;
+    top: -24px;
+    border-radius: 0% 0% 10% ;
+    background: #CA9201;
   }
+
+
+  .treeMainBack2{
+    position: absolute;
+    width: 75.15px;
+    height: 594.62px;
+    left: -44px;
+    top: -24px;
+    border-bottom-right-radius: 50% 20%;
+    background: linear-gradient(180deg, #07D635 0%, #11882B 100%);
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  }
+  .treeMainBack3{
+    position: absolute;
+    width: 15px;
+    height: 300px;
+    left: 17px;
+    top: 0px;
+    border-top-left-radius: 100%;
+    background: #CA9201;
+  }
+
+  .treeMainBack4{
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    left: 17px;
+    top: 300px;
+    border-bottom-left-radius: 100%;
+    background: #CA9201;
+  }
+
+ .treeMainBack5{
+    position: absolute;
+    width: 115px;
+    height: 329px;
+    left: -109px;
+    top: 109px;
+    border-radius: 40%;
+    background: #338D47;
+ }
+
+ .leafMainFront1{
+    position: absolute;
+    width: 115px;
+    height: 329px;
+    left: -101px;
+    top: 385px;
+    border-radius: 50%;
+    background: #027D1D;
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.25);
+ }
+.leafMainFront2{
+    position: absolute;
+width: 115px;
+height: 329px;
+left: -84px;
+top: 638px;
+border-radius: 50%;
+background: linear-gradient(109.73deg, #0B4A19 -24.73%, #027D1D 86.76%);
+box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.branchesMainFront1{
+    position: absolute;
+width: 35px;
+height: 300px;
+left: -5px;
+top: 949.26px;
+border-top-right-radius: 70%;
+
+background: linear-gradient(180deg, #B88549 0%, #875010 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(55.72deg);
+}
+.branchesMainFront2{
+    position: absolute;
+width: 20px;
+height: 120px;
+left: 74px;
+top: 967px;
+border-radius: 100%;
+background:  #f6eebd ;
+transform: rotate(55.72deg);
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
