@@ -4,6 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <script src="/js/home.js"></script>
 
     
 
@@ -16,6 +17,51 @@
      <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
+
+
+
+
+
+
+
+
+
+  <div class="treeMainBack"></div>
+  <div class="treeMainBack2"></div>
+  <div class="treeMainBack3"></div>
+  <div class="treeMainBack4"></div>
+  <div class="treeMainBack5"></div>
+
+  <div class="leafMainFront1"></div>
+  <div class="leafMainFront2"></div>
+
+  <div class="branchesMainFront1"></div>
+  <div class="branchesMainFront2"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- top of the home page-->
     <a href="index.html" class="">
         <img class="home" src="sami/Screenshot 2021-06-19 213312.jpg" alt="">
@@ -26,16 +72,19 @@
     </div>
          
 
+     
 
      <div class="homeTexts">
         <div class="homeThoughts"> I am a student and studying <br> finance and management. <br> The goal is to reach <br> somewhere very few belong <br>to, although is a very task. <br> But I have decided to work <br> harder to achieve everything <br> I want to have in future. </div>
         <div class="homeThoughts"> An introverted person who <br> lives in dreams although life <br> is more practical. Always <br> think practically because <br> there is no place for emotion <br> to me.</div>
         <div class="homeThoughts"> Never go for any argument,<br> try to be calm, can not react <br> immediately, love <br> programming. generate new <br> ideas, learn things deeply. </div>
-        <div class="homeThoughts"> Quantum physic is the love <br> of my life and commerce is <br> the present wife who is <br> being cheated by me.</div>
+        <div class="homeThoughts"> Quantum physic is the love <br> of my life and commerce is <br> the present wife who is <br> being cheated by me. 😐😐</div>
         <div class="homeThoughts"> Enjoy asking questions <br> rather than answering the <br> question. However, you are <br> totally ok with me whether <br> you are a shy or a talkative <br> person.</div>
+        <div class="homeThoughts"> If you are like me press <br> <button type="button" name="emoji" onclick="loveBtn()" class="yellowLoveBtn">💛</button> <br> <br> If you are not me type press <br> <button type="button" name="emoji" onclick="hatebtn()"  class="yellowHateBtn">😏</button> </div>
         <div class="homeThoughts" style="opacity: 0;"></div>
 
      </div>
+
         
 
 
@@ -136,14 +185,35 @@
 
 
 <!-- start of home newsfeed-->
-<div class="notice">
-  <div class="textOfNotice"> <p class="noticeWord">Notice!</p>
-    <p class="noticedetails"> Due to my final exam preparation, it will take few more days to be completed </p>
 
-  </div>
+
+
+
+
+
+<!-- notice box center  notice box center  notice box center  notice box center  notice box center  notice box center  notice box center  notice box center notice box center  notice box center notice box center  notice box center-->
+<div class="notice" id="notice">
+  <div class="noticeBoxOfhomeTexts" id="noticeBoxOfhomeTexts"></div>
+  <form method="post" name="Emoji-reaction" action=""><input name="Person's name" type="text" class="noticeInput" id="noticeInput" required></form>
+  
+  <button class="noticeOkBtn" id="noticeOkBtn" onclick="okNotice()"> <img src="/images/icons/okbtn.png" alt=""></button>
+  <p class="noticedetails">Please enter your name <br> if you are interested</p>
+
+  <img src="./images/icons/cross.png" class="cross" id="cross" alt="">
+  <div class="hiddenCross" id="hiddenCross" onclick="noticeCrossBtn()"></div>
 </div>
 
-<div></div>
-
 </body>
+
+<script type="text/javascript">
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbwrhWC92JaHCZd-pGb2wATmE4ArV0uP2BXd3xe8awXDOFyKQWhr6WmxR9DXWpuxIV7K/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+</script>
 </html>
